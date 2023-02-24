@@ -1,0 +1,30 @@
+.EditVacation {
+	
+}
+.EditVacation {
+    background-color: white;
+}
+
+.EditVacation>form>textarea {
+    resize: vertical;
+    max-height: 400px;
+    min-height: 40px;
+}
+
+.EditVacation>form>.Err {
+    color: #d32f2f;
+    position: absolute;
+    font-size: large;
+    margin: 30px -335px;
+}
+
+
+.EditVacation>form>.ErrForDesc {
+    color: #d32f2f;
+    position: absolute;
+    font-size: large;
+    margin: 0 15px;
+}
+.descriptionBox {
+    font-size: x-large;
+}

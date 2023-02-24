@@ -1,0 +1,15 @@
+.Login{
+    background-color: white;
+}
+
+.Login p {
+    display: block;
+    text-align: center;
+    color: blue;
+}
+
+.Login .registerLink {
+    display: block;
+    text-align: center;
+    color: blue;
+}

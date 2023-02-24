@@ -1,0 +1,87 @@
+html,body,#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("./Assets/Images/images-backgrounds/pexels-tirachard-kumtanom-733853.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Box {
+    display: inline-block;
+    margin: 100px 10px 100px 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+}
+
+
+form {
+    padding: 0 20px;
+    width: 350px;
+    text-align: start;
+}
+
+form>input, form>button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    font-size: x-large;
+}
+
+form>label {
+    font-size: x-large;
+}
+
+.Err {
+    color: red;
+    position: absolute;
+    font-size: x-large;
+    margin: 0 20px;
+}
+
+.BoxCard {
+    display: inline-block;
+    margin: 100px 150px 100px 150px;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+}
+
+.DataCard {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+    /*  contain prevent lag, cover will not; this can prevent lag*/
+    /* background-size: cover; */
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: 0% 0% 0% 0%;
+}
+
+.Calendar-Icon {
+    font-size: 20px;
+}
+
+.imagePreview{
+    background-size: contain;
+    max-height: 200px;
+    max-width: 350px;
+}
+
+.removeLinkHref {
+	text-decoration: none;
+    margin: 20px;
+}

@@ -1,0 +1,14 @@
+.AuthMenu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+.AuthMenu > .logoutBtn{
+    text-decoration: none;
+    color: white
+}
+
+.AuthMenu > .logoutBtn:hover{
+    color: rgb(184, 210, 255);
+}

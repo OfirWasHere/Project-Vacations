@@ -1,0 +1,9 @@
+.Menu {
+    /* background-color: rgb(38, 130, 158); */
+    background-color: rgb(50, 186, 228);
+    height: 70px;
+}
+.Menu> .linksDesign{
+    /* padding: 20px; */
+    padding: 10px;
+}

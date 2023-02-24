@@ -1,0 +1,20 @@
+
+.DataList > .SideMenu .switchName {
+    position: relative;
+    padding: 20px;
+    top: 5px;
+}
+
+.DataList > .SideMenu > .switches {
+    padding-top: 10px;
+    background-color: rgb(220, 245, 245);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}    
+.DataList > .PaginationStyling {
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+    margin-top:7.1%;
+}

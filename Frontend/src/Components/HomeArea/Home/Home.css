@@ -1,0 +1,53 @@
+.Home {
+    text-align: left;
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.Home>h2,
+h4 {
+    padding: 20px;
+    /* background-color: rgba(230, 230, 250, 0.219); */
+    background-color: rgba(84, 43, 9, 0.466);
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.Home>h4 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.Home>h2 {
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.Home>h2>span {
+    font-weight: bold;
+}
+
+.Home>.links {
+    padding-top: 50px;
+}
+
+.Home>.links>.btn {
+    transition-duration: 0.4s;
+    color: white;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: fit-content;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: rgba(84, 43, 9, 0.732);
+}
+
+.Home>.links>.btn:hover {
+    background-color: rgb(184, 112, 30);
+}

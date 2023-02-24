@@ -1,0 +1,9 @@
+.editLink{
+    border: 2px solid;
+    border-radius: 10px;
+}
+.editLink:hover{
+    background-color: rgb(102, 191, 255);
+    transition: ease-in-out 0.2s;
+    color: black;
+}

@@ -1,0 +1,17 @@
+.PageNotFound > img {
+	width: 20vh;
+    display: block;
+    margin: auto auto;
+    border-radius: 10px;
+}
+.PageNotFound > p {
+    text-align: center;
+    margin: auto auto;
+    margin-top: 30vh;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+}

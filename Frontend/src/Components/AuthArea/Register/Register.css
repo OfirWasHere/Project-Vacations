@@ -1,0 +1,16 @@
+.Register {
+    background-color: white;
+}
+
+.Register p {
+    display: block;
+    text-align: center;
+    color: blue;
+}
+
+
+.Register .loginLink {
+    display: block;
+    text-align: center;
+    color: blue;
+}
